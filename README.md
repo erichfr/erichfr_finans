@@ -1,2 +1,2 @@
-# https://erichfr.github.io/
+# https://erichfr.github.io/erichfr_finans/
 Projeto Finans
