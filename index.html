@@ -5,14 +5,27 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/estilo.css">
+        
+    
+    <title>Finans - Finanças Pessoais</title>
 
-<!-- Bootstrap CSS -->
+    <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
-    <title>Finans - Finanças Pessoais</title>
+
+    <!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+
+
+    <!-- Animate-->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
+  
+  
   </head>
   <body>
     
@@ -20,14 +33,15 @@
       <nav class="navbar navbar-expand-sm navbar-light bg-warning">
         <div class="container">
           <a href="#" class="navbar-brand">
-            <img src="imagens/logo.png" width="142">
+            <img src="imagens/logo.png" width="142" class="animate__animated animate__backInDown animate__slower">
           </a>
-
-          <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
-            <span class="navbar-toggler-icon"></span>
+          <!--Botão da Responsividade-->
+          <button class="navbar-toggler animate__animated animate__backInDown animate__slow" data-toggle="collapse" data-target="#nav-principal">
+            <span class="navbar-toggler-icon animated"></span>
           </button>
+          <!--Botão da Responsividade-->
 
-          <div class="collapse navbar-collapse" id="nav-principal">
+          <div class="collapse navbar-collapse animate__animated animate__backInRight animate__delay-1s animate__slow" id="nav-principal">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
                 <a href="#" class="nav-link">Home</a>
@@ -42,7 +56,7 @@
                 <a href="#" class="nav-link">Preços</a>
               </li>
               <li class="nav-item">
-                <a href="#" class="btn btn-outline-light ml-5">Entrar</a>
+                <a href="#" class="btn btn-outline-light ml-3 animate__animated animate__heartBeat animate__delay-4s">Entrar</a>
               </li>
             </ul>
           </div>
@@ -56,11 +70,13 @@
         <div class="row">
           <div class="col-md-6 d-flex"><!--Início Sessão Texto-->
             <div class="align-self-center">
-              <h1 class="display-4">Suas contas, nossas soluções</h1>
-              <p>
+              <h1 class="display-4 animate__animated animate__backInDown animate__slow">Suas contas, nossas soluções</h1>
+              
+              <p class="animate__animated animate__backInLeft animate__slower">
                 Uma ferramenta usada em todo mundo para descomplicar a sua vida financeira, o Finans é a melhor saída para sua vida pessoal.
               </p>
-              <form class="mt-4 mb-4"><!-- Formulário de Pesquisa-->
+              
+              <form class="mt-4 mb-4 animate__animated animate__flipInX animate__slow animate__delay-2s"><!-- Formulário de Pesquisa-->
                 <div class="input-group input-group-lg">
                   <input type="text" placeholder="Seu email" class="form-control">
                   <div class="input-group-append">
@@ -68,7 +84,7 @@
                   </div>
                 </div>
               </form><!--Fim Formulário de Pesquisa-->
-              <p>
+              <p class="animate__animated animate__fadeInBottomLeft">
                 Dispoinível para
                 <a href="#" class="btn btn-outline-light ml-2">
                   <i class="fab fa-android fa-lg"></i>
@@ -80,7 +96,7 @@
             </div>
           </div><!--Fim da Sessão de Texto-->
           <div class="col-md-6 d-none d-md-block">
-            <img src="imagens/capa-mulher.png">
+            <img src="imagens/capa-mulher.png" class="animate__animated animate__fadeInRight animate__slower animate__delay-1s">
           </div>
         </div>
       </div>
@@ -91,7 +107,7 @@
         <div class="row">
           <div class="col-md-6 d-flex">
             <div class="align-self-center">
-              <h2 >Saiba como administrar seu dinheiro</h2>
+              <h2>Saiba como administrar seu dinheiro</h2>
               <p>Com o Finans você adminstra seus recursos financeiros e não se preocupa com o dia de amanhã. Com gráficos simples, você descobre de maneira intuitiva como é simples ter educação e gestão financeira particular. Aqui você irá entender de onde vem e para onde vai seu dinheiro. Faça parte desse time!</p>
 
               <button class="btn btn-primary mt-2">Veja Mais</button>
@@ -112,7 +128,7 @@
           </div>
           <div class="col-md-6 d-flex">
             <div class="align-self-center">
-              <h2 >Pare de sofrer com juros e economize</h2>
+              <h2>Pare de sofrer com juros e economize</h2>
               <p>Manter as contas em dia sem se preocupar com juros? Saiba como calcular suas taxas com o Finans e receba alertas de contas a pagar e a receber! </p>
               <button class="btn btn-primary mt-2">Veja Mais</button>
             </div>
@@ -175,6 +191,8 @@
         </div>
       </div>
     </footer>
+  
+      
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
