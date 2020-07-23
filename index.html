@@ -17,31 +17,29 @@
     <!-- Font Awesome -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
+    <!-- Animate -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css">
 
 
-    <!-- Animate-->
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
-  />
-  
-  
+<!-- WOW -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
   </head>
   <body>
     
     <header> <!-- Inicio Cabeçalho-->
       <nav class="navbar navbar-expand-sm navbar-light bg-warning">
         <div class="container">
-          <a href="#" class="navbar-brand">
-            <img src="imagens/logo.png" width="142" class="animate__animated animate__backInDown animate__slower">
+          <a href="#" class="navbar-brand wow fadeInLeft" data-wow-duration="2s">
+            <img src="imagens/logo.png" width="142">
           </a>
           <!--Botão da Responsividade-->
-          <button class="navbar-toggler animate__animated animate__backInDown animate__slow" data-toggle="collapse" data-target="#nav-principal">
-            <span class="navbar-toggler-icon animated"></span>
+          <button class="navbar-toggler">
+            <span class="navbar-toggler-icon"></span>
           </button>
           <!--Botão da Responsividade-->
 
-          <div class="collapse navbar-collapse animate__animated animate__backInRight animate__delay-1s animate__slow" id="nav-principal">
+          <div class="collapse navbar-collapse wow fadeInRight" data-wow-duration="2s">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
                 <a href="#" class="nav-link">Home</a>
@@ -56,7 +54,7 @@
                 <a href="#" class="nav-link">Preços</a>
               </li>
               <li class="nav-item">
-                <a href="#" class="btn btn-outline-light ml-3 animate__animated animate__heartBeat animate__delay-4s">Entrar</a>
+                <a href="#" class="btn btn-outline-light ml-3">Entrar</a>
               </li>
             </ul>
           </div>
@@ -70,21 +68,21 @@
         <div class="row">
           <div class="col-md-6 d-flex"><!--Início Sessão Texto-->
             <div class="align-self-center">
-              <h1 class="display-4 animate__animated animate__backInDown animate__slow">Suas contas, nossas soluções</h1>
+              <h1 class="display-4 wow fadeInLeft" data-wow-duration="2s">Suas contas, nossas soluções</h1>
               
-              <p class="animate__animated animate__backInLeft animate__slower">
+              <p class="wow fadeIn" data-wow-duration="4s">
                 Uma ferramenta usada em todo mundo para descomplicar a sua vida financeira, o Finans é a melhor saída para sua vida pessoal.
               </p>
               
-              <form class="mt-4 mb-4 animate__animated animate__flipInX animate__slow animate__delay-2s"><!-- Formulário de Pesquisa-->
-                <div class="input-group input-group-lg">
+              <form class="mt-4 mb-4" ><!-- Formulário de Pesquisa-->
+                <div class="input-group input-group-lg wow bounce" data-wow-delay="2s">
                   <input type="text" placeholder="Seu email" class="form-control">
                   <div class="input-group-append">
                   <button type="button" class="btn btn-primary">Cadastre-se</button>
                   </div>
                 </div>
               </form><!--Fim Formulário de Pesquisa-->
-              <p class="animate__animated animate__fadeInBottomLeft">
+              <p class="wow flipInX" data-wow-delay="3s">
                 Dispoinível para
                 <a href="#" class="btn btn-outline-light ml-2">
                   <i class="fab fa-android fa-lg"></i>
@@ -96,7 +94,7 @@
             </div>
           </div><!--Fim da Sessão de Texto-->
           <div class="col-md-6 d-none d-md-block">
-            <img src="imagens/capa-mulher.png" class="animate__animated animate__fadeInRight animate__slower animate__delay-1s">
+            <img src="imagens/capa-mulher.png">
           </div>
         </div>
       </div>
@@ -106,14 +104,14 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 d-flex">
-            <div class="align-self-center">
+            <div class="align-self-center wow fadeInLeft">
               <h2>Saiba como administrar seu dinheiro</h2>
               <p>Com o Finans você adminstra seus recursos financeiros e não se preocupa com o dia de amanhã. Com gráficos simples, você descobre de maneira intuitiva como é simples ter educação e gestão financeira particular. Aqui você irá entender de onde vem e para onde vai seu dinheiro. Faça parte desse time!</p>
 
               <button class="btn btn-primary mt-2">Veja Mais</button>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 wow fadeInRightBig" data-wow-delay=".5s">
             <img src="imagens/saiba.png" class="img-fluid">
           </div>
         </div>
@@ -124,10 +122,10 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <img src="imagens/juros.png" class="img-fluid">
+            <img src="imagens/juros.png" class="img-fluid wow flipInX" data-wow-duration="3s">
           </div>
           <div class="col-md-6 d-flex">
-            <div class="align-self-center">
+            <div class="align-self-center wow fadeInRightBig" data-wow-duration="3s">
               <h2>Pare de sofrer com juros e economize</h2>
               <p>Manter as contas em dia sem se preocupar com juros? Saiba como calcular suas taxas com o Finans e receba alertas de contas a pagar e a receber! </p>
               <button class="btn btn-primary mt-2">Veja Mais</button>
@@ -140,30 +138,32 @@
       <div class="container">
         <div class="row">
         <div class="col-md-4">
-          <img src="imagens/facil.png" class="img-fluid">
-          <h4>Simples de usar</h4>
-          <p>
+          <img src="imagens/facil.png" class="img-fluid  wow flipInX" data-wow-delay="1s">
+          <h4 class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">Simples de usar</h4>
+          <p class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
             O Finans vai além do básico e facilita seu acesso a controles incríveis, indispensáveis para suas finanças. Objetivo como deve ser!
           </p>
         </div>
         <div class="col-md-4">
-          <img src="imagens/economize.png" class="img-fluid">
-          <h4>Economize seu tempo</h4>
-          <p>
+          <img src="imagens/economize.png" class="img-fluid wow flipInX" data-wow-delay="2s">
+          <h4 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="2s">Economize seu tempo</h4>
+          <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="2s">
             Tempo é dinheiro! Com simplicidade, você tem dados importantes para o seu controle financeiro, afinal é isso que importa para você!
           </p>
         </div>
         <div class="col-md-4">
-          <img src="imagens/suporte.png" class="img-fluid">
-          <h4>Suporte parceiro</h4>
-          <p>
+          <img src="imagens/suporte.png" class="img-fluid wow flipInX" data-wow-delay="3s">
+          <h4 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay="3s">Suporte parceiro</h4>
+          <p class="wow fadeInRight" data-wow-delay="3s">
             Surgiu alguma dúvida? Não se preocupe! Nossa equipe de suporte está aqui para ajudar você e deixar sua vida digital mais fácil. 
           </p>
         </div>
         </div>
       </div>  
     </section><!-- Fim da recursos -->
-    <footer class="mt-4 mb-4">
+
+
+    <footer class="mt-4 mb-4"> <!-- inicio rodape-->
       <div class="container">
         <div class="row">
           <div class="col-md-8">
@@ -190,8 +190,19 @@
           </div>
         </div>
       </div>
-    </footer>
-  
+    </footer> <!-- Fim rodape -->
+    <script>
+      wow = new WOW(
+   {
+    boxClass:     'wow',      // default
+    animateClass: 'animated', // change this if you are not using animate.css
+    offset:       0,          // default
+    mobile:       true,       // keep it on mobile
+    live:         true        // track if element updates
+   }
+  )
+   wow.init();
+    </script>
       
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
